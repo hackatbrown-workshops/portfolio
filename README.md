@@ -14,9 +14,8 @@ We'll play around with the HTML file first before conquering the CSS part.
 ##Checkpoint 1: Structuring
 Now, try copying the following code into your file:
 
-<!doctype html>
-
 ```html
+<!doctype html>
 <html>
 <head>
   <title>Website Title Here!</title>
@@ -74,7 +73,7 @@ Let's add some more `<h2>` tags for each subheading in our website.
 Save and refresh to see the new headings!
 
 ## Checkpoint 3: Textual Content
-The next tag we're going to be learning is the <p> tag, which stands for paragraph. Whenever we create a block of text on our site, we're going to want to wrap it with the `<p> ... </p>` tag.
+The next tag we're going to be learning is the `<p>` tag, which stands for paragraph. Whenever we create a block of text on our site, we're going to want to wrap it with the `<p> ... </p>` tag.
 
 Let's add some more textual content to our site now!
 ```html
@@ -93,8 +92,8 @@ Let's add some more textual content to our site now!
 </body>
 ```
 
-#Checkpoint 4: Links
-In your website, you might want to add some links to other sites, or a link to quickly email you. I'm going to place some link tags inside my <h3> tags for the titles of different projects I've worked on.
+##Checkpoint 4: Links
+In your website, you might want to add some links to other sites, or a link to quickly email you. I'm going to place some link tags inside my `<h3>` tags for the titles of different projects I've worked on.
 
 ```html
 <h3><a href="http://github.com">My Hack @ Brown Project</a></h3>
@@ -111,7 +110,7 @@ Next, let's add a link to your email. When clicked, this link will start an emai
 
 Try saving + refreshing, and testing out your links!
 
-#Checkpoint 5: Images
+##Checkpoint 5: Images
 Let's try adding an image of ourselves. Image tags are a little different from all the tags we've encountered so far. I'm going to add one right before my about me paragraph text.
 
 ```html
@@ -122,7 +121,7 @@ The src attribute in image tags describe the location of your image. If your ima
 
 Note that image tags also do not have a closing tag. They are one of the few HTML tags that only have an opening tag.
 
-#Checkpoint 6: Prep for CSS
+##Checkpoint 6: Prep for CSS
 Whew! That was a lot of HTML. Before we move on to CSS, which will make our site a lot prettier, we're going to add some `<div>` tags. `<div>` tags alone will not change how your website will look, but they can help us section out our HTML. This is helpful for CSS because we might only want to apply a style to a specific section of our page. 
 
 Here's how my body tag looks now:
@@ -160,7 +159,7 @@ The id attribute simply allows us to give a name for the div (which will again b
 
 Next, let's pick out a font that we're going to use for our file. We can use Google Web Fonts for this. Once you choose a font, click on the plus button. Click the "1 Family Selected" Bar and copy the link that looks like `<link href="https://fonts.googleapis.com/css?family=...." rel="stylesheet">`. Paste this in your `<head>` tag *above* the line already there that says `<link href=...>`. The font won't actually show up on our website yet - we're going to need CSS to help us out with that!
 
-#Checkpoint 7: CSS!
+##Checkpoint 7: CSS!
 Take a look inside your head tag again. Remember the `<link ref="stylesheet" href="styles.css">` tag? That's a bit of HTML that helps us link up our HTML file and the CSS file that is going to style it.
 
 Create a new file in your text editor and save it as styles.css (make sure that it is a .css file, not a .css.txt!) In your file, type out:
@@ -209,7 +208,7 @@ You can think of most HTML tags as being represented as a box on your screen. Wh
 
 At this point, you know enough of the basics to start playing around with styles on your own. Feel free to check out my example styles.css file in the repository, or use http://www.w3schools.com/, which contains a wealth of information of HTML tags and CSS.
 
-#Checkpoint 8: Setting Up Github Pages
+##Checkpoint 8: Setting Up Github Pages
 Github Pages is a tool that will helps you upload your website to the world wide web using Github. We will assume that you already have a Github account and Git set up. If you need help, call over a mentor, or check out our Git guide.
 
 First, log into your Github account and create a new repository called *username*.github.io, where *username* is your username on Github. The username must match or this well not work.
