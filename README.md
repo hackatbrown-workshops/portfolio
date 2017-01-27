@@ -209,13 +209,13 @@ You can think of most HTML tags as being represented as a box on your screen. Wh
 At this point, you know enough of the basics to start playing around with styles on your own. Feel free to check out my example styles.css file in the repository, or use http://www.w3schools.com/, which contains a wealth of information of HTML tags and CSS.
 
 ##Checkpoint 8: Setting Up Github Pages
-Github Pages is a tool that will helps you upload your website to the world wide web using Github. We will assume that you already have a Github account and Git set up. If you need help, call over a mentor, or check out our Git guide.
+Github Pages is a tool that will helps you upload your website to the world wide web using Github. We will assume that you already have a Github account and Git set up. If you need help getting Git set up, call over a mentor, or check out our Git guide.
 
 First, log into your Github account and create a new repository called *username*.github.io, where *username* is your username on Github. The username must match or this well not work.
 
-Using your terminal, open up the folder where want to store your website (preferably not your desktop or the same place as the folder we created today). In terminal, type in git clone https://github.com/username/username.github.io
+Using your terminal, open up the folder where want to store your website (preferably not your desktop or the same place as the folder we created today). In terminal, type in `git clone https://github.com/username/username.github.io`. If you open up your GitHub folder (where all your repositories are located), you should see that a new folder has been created.
 
-Next, open up the folder with a file manager and copy the files we've created today over. Make sure not to copy the whole Portfolio folder -- only copy the files inside it.
+Next, open up the folder containing all the files we've created today. Copy over all the files we've created into your username.github.io folder. This includes your index.html file, style.css, and any images you've added.
 
 Add, commit, and push your changes.
 
