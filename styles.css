@@ -1,0 +1,81 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Montserrat;
+	text-align: center;
+}
+
+h1 {
+	font-size:40px;
+}
+h2 { 
+	font-size: 30px;
+	text-shadow: 3px 3px 0 #B697E6;
+}
+
+#header {
+	background-color: #CAB1F0;
+	padding:80px;
+	margin-bottom:50px;
+}
+
+#header h1, #header h2 { 
+	color: #ffffff;
+	text-shadow: 3px 3px 0 #7B4CC2;
+}
+
+#about {
+	margin-bottom: 50px;
+}
+
+#about_content {
+	display:inline-block;
+	width: 800px;
+	height: 150px;
+}
+
+#about_content img {
+	float:left;
+	width: 120px;
+	margin-right: 50px;
+	border-radius: 100px;
+	border: 10px solid #CAB1F0;
+}
+
+#about_text {
+	padding-top:50px;
+	text-align: left;
+}
+
+#projects {
+	margin-bottom: 50px;
+}
+
+#projects p {
+	width: 500px;
+	display:inline-block;
+}
+
+#projects a {
+	color: #573091;
+}
+
+#projects a:hover {
+	color: #431B80;
+}
+
+#contact {
+	background-color: #CAB1F0;
+	padding:80px;
+}
+
+#contact a {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 20px;
+	background: #573091;
+}
+
+#contact a:hover {
+	background: #431B80;
+}
